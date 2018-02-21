@@ -1,0 +1,76 @@
+body{
+    background: lemonchiffon;
+}
+#meny-btn{
+    width: 250px;
+    margin: 10%;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+#game{
+    display: flex;
+    flex-direction: column;
+}
+#timer-main, #score{
+    text-align: center;
+    font-weight: bold;
+    font-size: 66px;
+    color: lawngreen;
+    width: 100%;
+    min-height: 100px;
+    margin: 100px;
+}
+#playground{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#game-image{
+    width: 65%;
+    align-items: center;
+    & #main{
+        float: right;
+        margin-right: 100px;
+    }
+}
+#img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+#help{
+    width: 30%;
+    margin: 0 auto;
+    color: lawngreen;
+    font-size: 40px;
+        & strong{
+            font-weight: bold;
+            font-size: 66px; 
+        }   
+}
+#stars{
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+    font-size: 66px;
+    color: lawngreen;
+    
+}
+#star{
+    margin: 100px;
+    width: 300px;
+    height: 280px;
+}
+#starLink{
+    width: 100px;
+    font-size: 50px;
+    color: lawngreen    
+}
+#historyBtn{
+    margin: 10px;
+    height: 80px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 50px;
+}
